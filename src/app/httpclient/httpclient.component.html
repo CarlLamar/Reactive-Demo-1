@@ -1,0 +1,56 @@
+<h5>List From Main</h5>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>USERNAME</th>
+    <th>EMAIL</th>
+    <th>WEBSITE</th>
+  </tr>
+</table>
+<th>List from Main</th>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Username</th>
+    <th>Email</th>
+    <th>Website</th>
+  </tr>
+  <td>
+    <tr *ngFor="let users of httpusers">
+      {{
+        users.id
+      }}
+    </tr>
+  </td>
+  <td>
+    <tr *ngFor="let users of httpusers">
+      {{
+        users.name
+      }}
+    </tr>
+  </td>
+  <td>
+    <tr *ngFor="let users of httpusers">
+      {{
+        users.username
+      }}
+    </tr>
+  </td>
+  <td>
+    <tr *ngFor="let users of httpusers">
+      {{
+        users.email
+      }}
+    </tr>
+  </td>
+  <td>
+    <tr *ngFor="let users of httpusers">
+      {{
+        users.website
+      }}
+    </tr>
+  </td>
+</table>
